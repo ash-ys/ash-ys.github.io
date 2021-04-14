@@ -1,0 +1,10 @@
+.Home {
+  background: purple;
+  display: flex;
+  height: 600px;
+  padding-top: 80px;
+}
+
+.Home.Container h1 {
+  margin: 0;
+}
