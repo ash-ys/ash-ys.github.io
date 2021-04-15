@@ -1,9 +1,9 @@
 import classes from'./About.module.css'
-
+import PageHeader from './../PageHeader/PageHeader'
 const About = () => {
     return (  
         <div>
-            <h1>About</h1>
+            <PageHeader title={'About Me'}/>
         </div>
     );
 }
