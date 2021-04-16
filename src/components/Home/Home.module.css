@@ -22,12 +22,11 @@
 .Home.Container.Hello {
   font-size: 63px;
 }
-
 .Home.Container h1 {
   margin: 0;
 }
 
-.Home .BinaryWorld {
+.Home BinaryWorld {
   height: 70%;
   position: absolute;
   right: 10%;
