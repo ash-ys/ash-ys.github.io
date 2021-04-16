@@ -17,6 +17,12 @@
     font-size: 46px;
 }
 
+.AboutMe .Container .Photo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
 .AboutMe .Container .Photo .Me {
   height: 500px;
   border-radius: 10px;

@@ -10,6 +10,8 @@ const About = () => {
                     <h2>Hello I'm Ashish</h2>
                     <p>
                         Please I need internship. help me!
+                        I am a software developer based on Nepal.
+                        Never gonna give you up.
                     </p>
                 </div>
                 <div className={classes.Photo}>
