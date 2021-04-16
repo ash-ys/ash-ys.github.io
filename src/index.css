@@ -10,16 +10,25 @@ body {
 h1 {
   font-weight: 900;
   font-size: 45px;
+  color: white;
 }
 
 h2 {
   font-weight: 700;
   font-size: 23px;
+  color: white;
 }
 
 p {
   font-weight: 500;
   font-size: 21px;
+  color: white;
+}
+
+a {
+  font-weight: 900;
+  font-size: 16px;
+  color: white;
 }
 
 code {

@@ -9,7 +9,7 @@ const About = () => {
                 <div className={classes.Text}>
                     <h2>Hello I'm Ashish</h2>
                     <p>
-                        Please I need a job
+                        Please I need internship. help me!
                     </p>
                 </div>
                 <div className={classes.Photo}>
