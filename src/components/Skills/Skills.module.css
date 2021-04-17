@@ -1,9 +1,35 @@
-.Skills{
-    background-color: #141313;
+.Skills {
+  background-color: #141313;
+  padding-bottom: 5%;
 }
 
-.Skills .List ul{
-    color: white;
-    list-style-type: none;
-    padding: 0;
+.Skills  p {
+    padding-left: 25%;
+    width: 50%;
+}
+
+.Skills .List ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills .Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Skills .Container .List {
+  flex-basis: 33%;
+  background-color: black;
+  box-shadow: 0 0 12px 4px white;
+  border-radius: 9px;
+  margin-bottom: 2px;
+}
+
+.Skills .List ul li{
+    display: flex;
+    justify-content: center;
 }

@@ -1,21 +1,24 @@
 import classes from './Skills.module.css'
 import PageHeader from './../PageHeader/PageHeader'
+import CodeThinking from'./../../img/CodeThinking.svg'
+
+const listTitleStyle = {fontWeight :900, color:'#9b1fe8',marginBottom:'4px'}
 
 const backendSkills =
 <ul>
-    <li>BACKEND</li>
+    <li style={listTitleStyle}>BACKEND</li>
     <li>Java-SQL</li>
 </ul>
 
 const frontendSkills =
 <ul>
-    <li>FRONTEND</li>
+    <li style={listTitleStyle}>FRONTEND</li>
     <li>ReactJS-HTML-CSS</li>
 </ul>
 
 const otherSkills =
 <ul>
-    <li>OTHER SKILLS</li>
+    <li style={listTitleStyle}>OTHER SKILLS</li>
     <li>GIT-Figma</li>
 </ul>
 
@@ -33,6 +36,7 @@ const Skills = () => {
                 Some of them i control better than the others.
             </p>
             <div className={classes.Container}>
+                <img src={CodeThinking} alt="CodeThinking"/>
                 {totalSkills.map(skills=>{
                     return(
                         <div className={classes.List}>
