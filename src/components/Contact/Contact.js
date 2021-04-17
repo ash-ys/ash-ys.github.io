@@ -5,7 +5,7 @@ const handleURL =(url) => {
 }
 const Contact = () => {
     return ( 
-        <div className={classes.Contact}>
+        <div className={classes.Contact} id="contact">
             <div className={classes.ContactIcons}>
             <FaYoutube color ='white' size= '30px' style={{padding: '1%'}}
             onClick={handleURL('https://www.youtube.com/channel/UC5I1ZV96xf-qffbCdFYZihg')} />

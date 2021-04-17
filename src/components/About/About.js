@@ -3,7 +3,7 @@ import PageHeader from './../PageHeader/PageHeader'
 import me from './../../img/me.JPG'
 const About = () => {
     return (  
-        <div className={classes.AboutMe}>
+        <div className={classes.AboutMe} id="about">
             <PageHeader title={'About Me'}/>
             <div className={classes.Container}>
                 <div className={classes.Text}>

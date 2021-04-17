@@ -1,6 +1,6 @@
 import classes from './Skills.module.css'
 import PageHeader from './../PageHeader/PageHeader'
-import CodeThinking from'./../../img/CodeThinking.svg'
+import codeThinking from'./../../img/codeThinking.svg'
 
 const listTitleStyle = {fontWeight :900, color:'#9b1fe8',marginBottom:'4px'}
 
@@ -27,7 +27,7 @@ const totalSkills = [backendSkills, frontendSkills, otherSkills]
 
 const Skills = () => {
     return ( 
-        <div className={classes.Skills}>
+        <div className={classes.Skills} id="skills">
             <PageHeader title={'What about the skills?'}/>
             <p>
                 I'm a life long learner and enjoy learning new stuff!
@@ -36,7 +36,7 @@ const Skills = () => {
                 Some of them i control better than the others.
             </p>
             <div className={classes.Container}>
-                <img src={CodeThinking} alt="CodeThinking"/>
+                <img src={codeThinking} alt="codeThinking"/>
                 {totalSkills.map(skills=>{
                     return(
                         <div className={classes.List}>
