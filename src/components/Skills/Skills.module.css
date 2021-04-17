@@ -1,0 +1,9 @@
+.Skills{
+    background-color: #141313;
+}
+
+.Skills .List ul{
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}

@@ -19,9 +19,12 @@ const otherSkills =
     <li>GIT-Figma</li>
 </ul>
 
+const totalSkills = [backendSkills, frontendSkills, otherSkills]
+
+
 const Skills = () => {
     return ( 
-        <div>
+        <div className={classes.Skills}>
             <PageHeader title={'What about the skills?'}/>
             <p>
                 I'm a life long learner and enjoy learning new stuff!
@@ -29,8 +32,14 @@ const Skills = () => {
                 libraries that i work with an like.
                 Some of them i control better than the others.
             </p>
-            <div>
-                className{classes.Container}
+            <div className={classes.Container}>
+                {totalSkills.map(skills=>{
+                    return(
+                        <div className={classes.List}>
+                            {skills}
+                            </div>
+                    )
+                })}
             </div>
         </div>
      );
