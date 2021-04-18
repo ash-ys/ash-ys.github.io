@@ -12,18 +12,20 @@
   margin: left 3%;
 }
 
-.AboutMe .Container .Text h2{
-    font-weight: 900;
-    font-size: 46px;
+.AboutMe .Container .Text h2 {
+  font-weight: 900;
+  font-size: 46px;
 }
 
-.AboutMe .Container .Photo{
-    display: flex;
-    width: 50%;
-    justify-content: center;
+.AboutMe .Container .Photo {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .AboutMe .Container .Photo .Me {
-  height: 500px;
+  width: 90%;
+  max-width: 500px;
   border-radius: 10px;
 }
