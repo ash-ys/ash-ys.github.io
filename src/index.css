@@ -7,11 +7,13 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
 }
 
 h1 {
   font-weight: 900;
   font-size: 3.2rem;
+  font-size: calc(1rem + 1vw);
   color: white;
 }
 
@@ -33,6 +35,9 @@ a {
   color: white;
 }
 
+li {
+  font-size: 1.29rem;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
