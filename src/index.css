@@ -12,14 +12,13 @@ html {
 
 h1 {
   font-weight: 900;
-  font-size: 3.2rem;
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + 3vw);
   color: white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.65rem;
+  font-size: calc(1rem + 1.5vw);
   color: white;
 }
 
