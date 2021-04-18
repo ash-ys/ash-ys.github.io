@@ -11,25 +11,25 @@ html {
 
 h1 {
   font-weight: 900;
-  font-size: 45px;
+  font-size: 3.2rem;
   color: white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 1.65rem;
   color: white;
 }
 
 p {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.5rem;
   color: white;
 }
 
 a {
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1.15rem;
   color: white;
 }
 
