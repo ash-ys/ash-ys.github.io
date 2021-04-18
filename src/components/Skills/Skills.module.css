@@ -30,7 +30,7 @@
 .Skills .Container .List {
   flex-basis: 33%;
   background-color: black;
-  box-shadow: 0 0 12px 4px white;
+  box-shadow: 0 0 1vw 0.3vw white;
   border-radius: 9px;
   margin-bottom: 2px;
 }
@@ -38,4 +38,5 @@
 .Skills .List ul li {
   display: flex;
   justify-content: center;
+  font-size: 18px;
 }
