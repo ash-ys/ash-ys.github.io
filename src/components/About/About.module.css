@@ -28,3 +28,16 @@
   max-width: 500px;
   border-radius: 10px;
 }
+
+@media (max-width: 500px) {
+  .AboutMe .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .AboutMe .Container .Text {
+    width: 80%;
+  }
+  .AboutMe .Container .Photo {
+    width: 70%;
+  }
+}

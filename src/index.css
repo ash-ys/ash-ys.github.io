@@ -24,18 +24,18 @@ h2 {
 
 p {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: calc(0.75rem + 1vw);
   color: white;
 }
 
 a {
   font-weight: 900;
-  font-size: 1.15rem;
+  font-size: calc(0.6rem + 1vw);
   color: white;
 }
 
 li {
-  font-size: 1.29rem;
+  font-size: calc(0.6rem + 1vw);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

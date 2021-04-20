@@ -1,5 +1,11 @@
 .Contact {
-  background-color: #341e46;
+  background: rgb(0, 7, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 7, 36, 1) 0%,
+    rgba(9, 121, 90, 1) 0%,
+    #341e46 100%
+  );
   height: 300px;
   display: flex;
   align-items: center;
