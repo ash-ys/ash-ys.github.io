@@ -40,9 +40,15 @@
   justify-content: center;
 }
 
-@media (max-width: 910px){
+@media (max-width: 910px) {
   .Skills .Container img {
     width: 80%;
     padding-right: 20%;
+  }
+}
+
+@media (max-width: 714px) {
+  .Skills .Container .List {
+    flex-basis: 49%;
   }
 }
