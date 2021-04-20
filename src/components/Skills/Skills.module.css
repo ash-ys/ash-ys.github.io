@@ -51,4 +51,13 @@
   .Skills .Container .List {
     flex-basis: 49%;
   }
+  .Skills p {
+    width: 80%;
+    padding-left: 10%;
+  }
+
+  .Skills .Container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
