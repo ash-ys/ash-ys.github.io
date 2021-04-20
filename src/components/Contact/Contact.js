@@ -9,19 +9,19 @@ const Contact = () => {
         
         <div className={classes.Contact} id="contact">
             <div className={classes.ContactIcons}>
-                <motion.div>
+                <motion.div whileHover={{scale: 1.2}}>
                     <FaYoutube color ='white' size= '30px' style={{padding: '1%'}}
                     onClick={handleURL('https://www.youtube.com/channel/UC5I1ZV96xf-qffbCdFYZihg')} />
                 </motion.div>
-                <motion.div>
+                <motion.div whileHover={{scale: 1.2}}> 
                     <FaInstagram color ='white' size= '30px' style={{padding: '1%'}}
                     onClick={handleURL('https://www.instagram.com/a.s.h.i.s.h.w.a.g.l.e/')} />
                 </motion.div>
-                <motion.div>
+                <motion.div whileHover={{scale: 1.2}}>
                     <FaGithub color ='white' size= '30px' style={{padding: '1%'}}
                      onClick={handleURL('https://github.com/ash-ys')} />
                 </motion.div>
-                <motion.div>
+                <motion.div whileHover={{scale: 1.2}}>
                     <FaLinkedin color ='white' size= '30px' style={{padding: '1%'}}
                      onClick={handleURL('https://www.linkedin.com/in/ashish-wagle-a4155313a/')} />
                  </motion.div>
