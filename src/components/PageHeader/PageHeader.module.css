@@ -11,8 +11,15 @@
   left: 0;
   width: 12vw;
   border: 1px solid #341e46;
+  display: none;
 }
 
 .Container h1 {
   color: white;
+}
+
+@media (max-width: 375px) {
+  .Container hr {
+    display: none;
+  }
 }
